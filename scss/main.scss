@@ -1,0 +1,16 @@
+@import url(./_colors.scss);
+*{
+    color: darkblue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 0px;
+}
+div{
+    background-color: rgb(195, 194, 199);
+    padding: 20px;
+    h1{
+        font-size: 46px;
+        .punto{
+            color: rgb(16, 28, 201);
+        }
+    }
+}

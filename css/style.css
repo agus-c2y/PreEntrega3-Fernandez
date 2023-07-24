@@ -1,0 +1,13 @@
+@import url(./_colors.scss);
+* {
+  color: darkblue;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  padding: 0px; }
+
+div {
+  background-color: #c3c2c7;
+  padding: 20px; }
+  div h1 {
+    font-size: 46px; }
+    div h1 .punto {
+      color: #101cc9; }
