@@ -1,0 +1,42 @@
+.footer {
+    background: $clarit; 
+    box-shadow: 0 10px $clarit;
+    display: flex;
+    flex-direction: inherit;
+    align-items: center;
+    padding: 10px;
+    justify-content: space-around;
+    height: 350px;
+    border-top: 1px solid;
+    position: static;
+    bottom: 0;
+    cursor: pointer;
+}
+.imgfoot {
+    width: 100px;
+    padding: 5px;
+    cursor: pointer;
+    border-bottom: 2px $azulosc;
+}
+.imgfoot2{
+    list-style-type: none;
+    font-family: $descripcort;
+    font-size: 17px;
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 5px $azulosc;
+}
+.iframe{
+    padding: 5px;
+    margin: 5px;
+    min-height: 340px;
+    justify-content: space-evenly;
+}
+.ulfoot{
+    list-style-type: none;
+    text-transform: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}

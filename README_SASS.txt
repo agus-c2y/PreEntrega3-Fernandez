@@ -15,6 +15,7 @@
     a. scss/main.scss
     b. css/style.css
 
+
 4. En la consola correr el comando
     a. npm run build-css // Por única vez
     b. npm run watch-css
