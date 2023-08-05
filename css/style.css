@@ -15,8 +15,9 @@
   text-decoration: none; }
 
 .header {
-  background: #ffffff;
-  box-shadow: 0 10px #ffffff;
+  background: #f6f5fa;
+  background-image: linear-gradient(to top, #a2b6df 100%, #6b8cce 100%, #a2b6df 100%);
+  box-shadow: 0 10px #6b8cce;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -32,18 +33,20 @@
   text-transform: uppercase;
   font-family: "League Gothic", sans-serif;
   font-size: 20px;
-  color: darkblue;
+  color: #010182;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
   align-items: center; }
 
 .header li {
-  padding: 10px; }
+  padding: 10px;
+  font-family: "League Gothic", sans-serif; }
 
 .header {
-  background: #ffffff;
-  box-shadow: 0 10px #ffffff;
+  background: #f6f5fa;
+  background-image: linear-gradient(to top, #a2b6df 100%, #6b8cce 100%, #a2b6df 100%);
+  box-shadow: 0 10px #6b8cce;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -59,14 +62,15 @@
   text-transform: uppercase;
   font-family: "League Gothic", sans-serif;
   font-size: 20px;
-  color: darkblue;
+  color: #010182;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
   align-items: center; }
 
 .header li {
-  padding: 10px; }
+  padding: 10px;
+  font-family: "League Gothic", sans-serif; }
 
 .main {
   text-align: center;
@@ -81,8 +85,9 @@ img {
   align-items: end; }
 
 .footer {
-  background: #ffffff;
-  box-shadow: 0 10px #ffffff;
+  background: #f6f5fa;
+  background-image: linear-gradient(to top, #a2b6df 100%, #6b8cce 100%, #a2b6df 100%);
+  box-shadow: 0 10px #6b8cce;
   display: flex;
   flex-direction: inherit;
   align-items: center;
@@ -129,7 +134,7 @@ img {
   margin: 15px;
   color: #150485;
   font-family: "League Gothic", sans-serif;
-  color: #3079ed;
+  color: #13005A;
   font-weight: bold;
   font-size: 3em;
   animation-name: focus-in-contract;
@@ -155,14 +160,35 @@ img {
   font-size: 40px;
   padding: 10px;
   margin: 5px;
-  align-items: center; }
+  align-items: center;
+  color: #13005A;
+  font-weight: bold;
+  font-size: 3em;
+  animation-name: focus-in-contract;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-delay: 0s;
+  animation-iteration-count: 1;
+  animation-direction: normal;
+  animation-fill-mode: none; }
+
+@keyframes focus-in-contract {
+  0% {
+    letter-spacing: 1em;
+    filter: blur(12px);
+    opacity: 0; }
+  100% {
+    filter: blur(0);
+    opacity: 1; } }
 
 .h3 {
   color: #27374D;
-  font-size: 34px;
+  font-size: 25px;
   font-family: "Poppins", sans-serif;
   margin: 10px;
-  padding: 15px; }
+  padding: 15px;
+  color: #13005A;
+  font-weight: bold; }
 
 .col {
   align-items: center;

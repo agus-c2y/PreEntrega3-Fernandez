@@ -14,31 +14,36 @@
     margin: 15px;
     color: $azulelc;
     font-family: $titGothix;
-	
-		color: #3079ed; font-weight:bold; font-size:3em;
-		
-		animation-name: focus-in-contract;
-		animation-duration: 1s;
-		animation-timing-function: linear;
-		animation-delay: 0s;
-		animation-iteration-count: 1;
-		animation-direction: normal;
-		animation-fill-mode: none;
-		
-	}
-	@keyframes focus-in-contract {
-			
-		0% {
-			letter-spacing:1em;
-			filter:blur(12px);
-			opacity:0;
-		}
-		100% {
-			filter:blur(0);
-			opacity:1;
-		}
-	
+
+    color: $azulosc;
+    font-weight: bold;
+    font-size: 3em;
+
+    animation-name: focus-in-contract;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: none;
+
 }
+
+@keyframes focus-in-contract {
+
+    0% {
+        letter-spacing: 1em;
+        filter: blur(12px);
+        opacity: 0;
+    }
+
+    100% {
+        filter: blur(0);
+        opacity: 1;
+    }
+
+}
+
 .h2 {
     color: rgba(9, 9, 89, 0.916);
     font-family: $titGothix;
@@ -46,14 +51,47 @@
     padding: 10px;
     margin: 5px;
     align-items: center;
+    color: $azulosc;
+    font-weight: bold;
+    font-size: 3em;
+
+    animation-name: focus-in-contract;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: none;
+
 }
-.h3{
+
+@keyframes focus-in-contract {
+
+    0% {
+        letter-spacing: 1em;
+        filter: blur(12px);
+        opacity: 0;
+    }
+
+    100% {
+        filter: blur(0);
+        opacity: 1;
+    }
+
+}
+
+.h3 {
     color: $greyosc;
-    font-size: 34px;
+    font-size: 25px;
     font-family: $titulo;
     margin: 10px;
     padding: 15px;
+    color: $azulosc;
+    font-weight: bold;
+
+
 }
+
 .col {
     align-items: center;
     font-family: $textos;
@@ -63,7 +101,8 @@
     text-overflow: inherit;
     text-decoration: dotted;
 }
-.descripcioncorta{
+
+.descripcioncorta {
     font-size: 25px;
     align-items: center;
     margin: 20px;
@@ -71,7 +110,7 @@
     font-family: $descripcort;
 }
 
-.container{
+.container {
     width: 100%;
     min-width: 320px;
     margin: auto;
@@ -108,9 +147,8 @@
     }
 
 }
-.body{
-    background: rgb(246,245,250); 
+
+.body {
+    background: rgb(246, 245, 250);
     background-image: linear-gradient(to top, #0c3483 0%, #a2b6df 100%, #6b8cce 100%, #a2b6df 100%);
 }
-
-
